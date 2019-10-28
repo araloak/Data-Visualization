@@ -69,5 +69,8 @@ for i, ax in enumerate(axes.flat): #轮流对每个子图进行操作,属于每�
         #表示在figure中显示图例
         ax.legend()      
 
+#保存图片，一定放在plt.show()之前
+plt.savefig('bar_chart_format.png') 
+
 #显示figure(画板)
 plt.show()
